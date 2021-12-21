@@ -1,6 +1,6 @@
 FROM fedora:31
 
-RUN yum update && yum -y install \
+RUN yum -y install \
 	texlive-scheme-full \
 	texlive-collection-latexrecommended \
 	texlive-collection-fontsrecommended \
