@@ -1,6 +1,8 @@
 name: CI
 
 on:
+  push:
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
@@ -22,6 +24,3 @@ jobs:
      - name:  build
        uses:  ./
        id:    cv
-     - name:  Measure time
-       run:   echo "The time was ${{ steps.build.outputs.time }}"
-    
