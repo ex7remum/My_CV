@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /usr/src/cv
-pdflatex -interaction=nonstopmode -outdir=/usr/src/out main.tex
+latexmk -shell-escape -pdf -outdir=/usr/src/out main.tex
