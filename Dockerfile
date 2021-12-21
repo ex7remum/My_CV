@@ -6,8 +6,7 @@ RUN yum -y install \
 	texlive-collection-fontsrecommended \
 	texlive-collection-pictures \
 	texlive-collection-science \
-	texlive-collection-langcyrillic \
-    latexmk
+	texlive-collection-langcyrillic
 
 COPY entrypoint.sh /usr/src/entrypoint.sh
 COPY cv /usr/src/cv
