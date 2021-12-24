@@ -25,10 +25,3 @@ jobs:
        uses:  ./
        id:    cv
        
-     - name: Display structure of downloaded files
-       run: cd ~/usr/src/cv
-     
-     - uses: actions/upload-artifact@v2
-       with:
-          name: download
-          path: main.pdf
