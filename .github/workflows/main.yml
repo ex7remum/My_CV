@@ -26,7 +26,7 @@ jobs:
        id:    cv
        
      - name: Display structure of downloaded files
-       run: ls -R
+       run: cd /usr/src/cv
      
      - uses: actions/upload-artifact@v2
        with:
