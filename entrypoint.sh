@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /usr/src/cv
-pdflatex -interaction=nonstopmode main.tex
+pdflatex -output-directory=/mnt/c/Users/yura- -interaction=nonstopmode main.tex
